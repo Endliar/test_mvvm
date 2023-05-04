@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_mvvm", "test_mvvm\test_mvvm.csproj", "{39DE2878-C047-41C8-B238-3C94F5AA8F41}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1A1E5607-70A7-4970-99CF-9FBBD3CEDB7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_mvvm_Console", "Tests\test_mvvm_Console\test_mvvm_Console.csproj", "{810D0DE3-E447-4E54-9765-2D613A9B5319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{39DE2878-C047-41C8-B238-3C94F5AA8F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39DE2878-C047-41C8-B238-3C94F5AA8F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39DE2878-C047-41C8-B238-3C94F5AA8F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810D0DE3-E447-4E54-9765-2D613A9B5319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810D0DE3-E447-4E54-9765-2D613A9B5319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810D0DE3-E447-4E54-9765-2D613A9B5319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810D0DE3-E447-4E54-9765-2D613A9B5319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{810D0DE3-E447-4E54-9765-2D613A9B5319} = {1A1E5607-70A7-4970-99CF-9FBBD3CEDB7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6860EC3D-1011-490E-AF82-99AEC868EBC7}
